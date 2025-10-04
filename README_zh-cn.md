@@ -44,20 +44,17 @@ git clone --depth=1 https://github.com/armbian/build
 
 ## 🚀 使用方法
 
-### 1. 创建脚本文件
+### 1. 获取脚本文件
 
 ```bash
 cd ~
-touch generate_redroid_patch.sh
-chmod +x generate_redroid_patch.sh
+wget https://github.com/HwlloChen/redroid-rk3588-armbian-kernel-patch/raw/refs/heads/main/generate_redroid_patch.sh
 ```
 
-### 2. 编辑脚本内容
-
-将脚本代码复制到文件中（使用 vim、nano 或其他编辑器）：
+### 2. 设置执行权限
 
 ```bash
-vim generate_redroid_patch.sh
+chmod +x generate_redroid_patch.sh
 ```
 
 ### 3. 配置参数（可选）
