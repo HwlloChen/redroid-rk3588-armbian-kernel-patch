@@ -46,20 +46,17 @@ git clone --depth=1 https://github.com/armbian/build
 
 ## 🚀 Usage
 
-### 1. Create Script File
+### 1. Get Script File
 
 ```bash
 cd ~
-touch generate_redroid_patch.sh
-chmod +x generate_redroid_patch.sh
+wget https://github.com/HwlloChen/redroid-rk3588-armbian-kernel-patch/raw/refs/tags/6.1.115-orangepi-5-max/generate_redroid_patch.sh
 ```
 
-### 2. Edit Script Content
-
-Copy the script code into the file (using vim, nano, or other editors):
+### 2. Chmod +x 
 
 ```bash
-vim generate_redroid_patch.sh
+chmod +x generate_redroid_patch.sh
 ```
 
 ### 3. Configure Parameters (Optional)
