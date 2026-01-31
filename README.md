@@ -2,6 +2,9 @@
 
 [中文版本](README_zh-cn.md)
 
+* [CNflysky/redroid-rk3588](https://github.com/CNflysky/redroid-rk3588) now supports Armbian vendor kernel. Therefore, the mission of this script has been accomplished. *
+* This project will be no longer updated and archived 👋 *
+
 ## 📋 Introduction
 
 This script automatically generates the required Redroid kernel patches for Armbian RK3588. By comparing the official Armbian kernel with CNflysky's modified kernel, it extracts key differences that add support for the `system-uncached-dma32` DMA heap device and generates a patch file that can be directly applied to the Armbian build process.
