@@ -2,8 +2,8 @@
 
 [中文版本](README_zh-cn.md)
 
-* [CNflysky/redroid-rk3588](https://github.com/CNflysky/redroid-rk3588) now supports Armbian vendor kernel. Therefore, the mission of this script has been accomplished. *
-* This project will be no longer updated and archived 👋 *
+- **[CNflysky/redroid-rk3588](https://github.com/CNflysky/redroid-rk3588) now supports Armbian vendor kernel. Therefore, the mission of this script has been accomplished.**  
+- **This project will be no longer updated and archived 👋**
 
 ## 📋 Introduction
 
