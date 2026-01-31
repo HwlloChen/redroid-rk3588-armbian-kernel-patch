@@ -1,5 +1,8 @@
 # Redroid-rk3588 内核补丁生成脚本
 
+- **[CNflysky/redroid-rk3588](https://github.com/CNflysky/redroid-rk3588) 现已支持 Armbian 原版内核。 因此，本脚本已完成它的使命。**  
+- **本项目将不再更新并归档 👋**
+
 ## 📋 简介
 
 这个脚本用于自动生成 Armbian RK3588 内核所需的 Redroid 补丁。它通过对比 Armbian 官方内核和 CNflysky 修改过的内核，提取出支持 `system-uncached-dma32` DMA heap 设备的关键差异，并生成可直接应用于 Armbian 编译流程的补丁文件。
